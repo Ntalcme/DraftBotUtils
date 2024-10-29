@@ -21,7 +21,7 @@ def getGuildExpRequiredToLevelUp(guildLevel:int) -> int:
     return round(XP_BASE_VALUE * (XP_COEFFICIENT ** (guildLevel + 1)) - XP_MINUS)
 
 def guildExpToGuildLevel(guildExp:int) -> int:
-    """Return the guild level relative from its total experience.
+    """Return the guild level from its total experience.
     
     Args:
         guildExp (int) : The total experience of the guild. Must be superior or equal to 0.
