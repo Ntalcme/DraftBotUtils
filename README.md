@@ -14,4 +14,5 @@
 <h3 align="left">Index 📖</h3>
 <ul>
   <li><a href="https://github.com/Ntalcme/DraftBotUtils/blob/main/guild.py">Guilds</li>
+  <li>Player (on progress)</li>
 </ul>
