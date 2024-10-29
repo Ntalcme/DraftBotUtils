@@ -55,7 +55,7 @@ def guildLevelToGuildExp(guildLevel:int) -> int:
     Raises:
         ValueError: If guildLevel is not between 0 and 150 included
     """
-    if not (0 <= guildLevel <= 159):
+    if not (0 <= guildLevel <= 150):
         raise ValueError("guildLevel must be between 0 and 150 included.")
     
     guildExp = 0
