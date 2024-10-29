@@ -1,6 +1,6 @@
 def getExpRequiredToLevelUp(level:int) -> int:
     """
-    Get the required experience to level up from its current level.
+    Get the required experience to level up from the current level.
     
     Args:
         level (int) : Current level. Must be positive
@@ -8,7 +8,7 @@ def getExpRequiredToLevelUp(level:int) -> int:
         int: The required exp to level up
 
     Raises:
-        ValueError: If level is not between 0 and 149 included
+        ValueError: If level is not positive
     """
     if not (0 <= level):
         raise ValueError("level must be positive.")
