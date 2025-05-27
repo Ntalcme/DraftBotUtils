@@ -13,9 +13,7 @@ def getExpRequiredToLevelUp(level:int) -> int:
     if not (0 <= level):
         raise ValueError("level must be positive.")
 
-    XP_BASE_VALUE = 325
-    XP_COEFFICIENT = 1.041
-    XP_MINUS = 188
+
 
     return round(XP_BASE_VALUE * (XP_COEFFICIENT ** (level + 1)) - XP_MINUS)
 
